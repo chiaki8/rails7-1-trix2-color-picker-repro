@@ -1,7 +1,6 @@
-# README
+# rails7-1-trix2-color-picker-repro
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Reproduction repo for [issuecomment-1869019780](https://github.com/basecamp/trix/issues/985#issuecomment-1869019780)
 
 Things you may want to cover:
 
