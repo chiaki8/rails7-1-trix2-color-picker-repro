@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+centered-div {
+  display: block;
+  text-align: center;
+}
+
+test-icon {
+  font-size: inherit;
+  width: 2.6em;
+  height: 1.6em;
+  max-width: calc(0.8em + 4vw);
+  text-indent: -9999px;
+}

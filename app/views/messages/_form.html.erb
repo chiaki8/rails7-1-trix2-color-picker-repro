@@ -14,6 +14,10 @@
   <div>
     <%= form.label :title, style: "display: block" %>
     <%= form.text_field :title %>
+    <div class="control" data-controller="trix">
+      <%= form.rich_text_area :description,
+                           data: { trix_target: 'editor' } %>
+    </div>
   </div>
 
   <div>
