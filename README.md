@@ -10,19 +10,20 @@ I hope this is helpful. Thanks!
 
 ## Prerequisites
 
-Node.js and Yarn need to be installed on your system because the application uses ESbuild
-Ruby 3.2.1
-Rails 7.1.2
+Node.js and Yarn need to be installed on your system because the application uses ESbuild  
+Ruby 3.2.1  
 
 ## Setup (an example with RVM)
-
-git clone https://github.com/chiaki8/rails7-1-trix2-color-picker-repro.git
-cd rails7-1-trix2-color-picker-repro
-rails7-1-trix2-color-picker-repro % rvm use ruby-3.2.1@trix_color_picker_pepro --ruby-version --create
-rails7-1-trix2-color-picker-repro % bundle install --without production
-rails7-1-trix2-color-picker-repro % bundle exec rake db:migrate
-rails7-1-trix2-color-picker-repro % bundle exec rake db:seed
-rails7-1-trix2-color-picker-repro % ./bin/rails javascript:install:esbuild
-
+```
+git clone https://github.com/chiaki8/rails7-1-trix2-color-picker-repro.git  
+cd rails7-1-trix2-color-picker-repro  
+rails7-1-trix2-color-picker-repro % rvm use ruby-3.2.1@trix_color_picker_pepro --ruby-version --create  
+rails7-1-trix2-color-picker-repro % bundle install --without production  
+rails7-1-trix2-color-picker-repro % ./bin/rails db:migrate  
+rails7-1-trix2-color-picker-repro % ./bin/rails db:seed  
+rails7-1-trix2-color-picker-repro % ./bin/rails javascript:install:esbuild   
+```
 ## Run application
+```
 rails7-1-trix2-color-picker-repro % ./bin/dev
+```
