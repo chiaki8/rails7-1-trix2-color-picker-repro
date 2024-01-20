@@ -18,7 +18,8 @@ Ruby 3.2.1
 git clone https://github.com/chiaki8/rails7-1-trix2-color-picker-repro.git  
 cd rails7-1-trix2-color-picker-repro  
 rails7-1-trix2-color-picker-repro % rvm use ruby-3.2.1@trix_color_picker_repro --ruby-version --create  
-rails7-1-trix2-color-picker-repro % bundle install --without production  
+rails7-1-trix2-color-picker-repro % bundle config set --local without 'production'
+rails7-1-trix2-color-picker-repro % bundle install
 rails7-1-trix2-color-picker-repro % ./bin/rails db:migrate  
 rails7-1-trix2-color-picker-repro % ./bin/rails db:seed  
 rails7-1-trix2-color-picker-repro % ./bin/rails javascript:install:esbuild   
